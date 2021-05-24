@@ -1,5 +1,5 @@
 # QR-Discord-Scam
-QR Code Grabber / Work
+QR Code Grabber / Logger
 
 Welcome To QR-Scam (By Vice Huara)
 
