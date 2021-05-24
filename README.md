@@ -27,5 +27,5 @@ ________________________________________________________________________________
 
 Otherwise the QR Grabber will often stay up to date. In short I have a good day or evening
 
-Python 3.9.5 : https://www.python.org/downloads/release/python-395/
+(PATH) Python 3.9.5 : https://www.python.org/downloads/release/python-395/
 
