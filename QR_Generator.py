@@ -4,6 +4,8 @@ from PIL import Image
 import base64
 import time
 import os
+import os
+os.system("color F")
 
 # Developer: Vice Huara
 # Educational purposes only
@@ -11,7 +13,16 @@ import os
 import subprocess
 import os
 
-
+print('Github.com/ViceHuara/             ')
+print('                                  ')
+print('                                  ')
+print(' This tool should be used for EDUCATIONAL PURPOSES only.')   
+print('		                         ')   
+print('              QR_Generator.py	         ')        
+print('		                         ')       
+print('	           V5.4	                 ')           
+print('____________________________________________________________')
+print('')
 try:
     choice = int(input("How many QR codes do you want to create > "))
 except:
@@ -35,10 +46,9 @@ def paste_template():
     im1.save('discord_gift.png', quality=95)
 
 def main():
-    print('Github.com/ViceHuara/')
+    
     print('- ** QR Code Scam Generator **')
     print('- ** Launch of the chromedriver...... **')
-
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     options.add_experimental_option('detach', True)
@@ -97,3 +107,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
